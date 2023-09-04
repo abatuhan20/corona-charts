@@ -26,7 +26,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/corona-charts/'}>
+   <>
       <div className="relative">
         {/* Menu Button */}
         <button
@@ -61,7 +61,7 @@ function App() {
 
       {/* Sidebar */}
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
-    </BrowserRouter>
+      </>
   );
 }
 

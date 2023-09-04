@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './styles.css'
 import { registerLicense } from '@syncfusion/ej2-base';
+import { BrowserRouter } from 'react-router-dom';
 
 const apiKey = import.meta.env.VITE_REACT_APP_API_KEY;
 console.log(apiKey);
@@ -11,6 +12,9 @@ registerLicense(`${apiKey}`);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <BrowserRouter  basename='/corona-charts/'>
     <App />
+    </BrowserRouter>
   </React.StrictMode>,
+   document.getElementById("root")
 )
