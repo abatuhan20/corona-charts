@@ -26,7 +26,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename='https://abatuhan20.github.io/corona-charts/'>
+    <BrowserRouter basename='/corona-charts'>
       <div className="relative">
         {/* Menu Button */}
         <button
