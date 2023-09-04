@@ -6,12 +6,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: '/',
+    base: '/corona-charts/',
   }
 
-  if (command !== 'serve') {
-    config.base = '/corona-charts/'
-  }
+  // if (command !== 'serve') {
+  //   config.base = '/corona-charts/'
+  // }
 
   return config
 })
