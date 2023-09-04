@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import './styles.css';
 //  CHART IMPORTS
 import Pie from "./components/Charts/Pie"
@@ -26,7 +26,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename='/corona-charts'>
+    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/corona-charts/'}>
       <div className="relative">
         {/* Menu Button */}
         <button
