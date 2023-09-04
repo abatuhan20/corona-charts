@@ -8,5 +8,10 @@ export default defineConfig(({ command }) => {
     plugins: [react()],
     base: '/corona-charts/',
   }
+
+  // if (command !== 'serve') {
+  //   config.base = '/corona-charts/'
+  // }
+
   return config
 })
