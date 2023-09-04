@@ -16,44 +16,44 @@ function Sidebar({ isOpen, toggleSidebar }) {
       <ul className="mt-6">
         {/* Sidebar Menu Items */}
         <li className="mb-2">
-          <a href="/" className="flex items-center p-3 hover:bg-gray-700">
+          <a href="/corona-charts/" className="flex items-center p-3 hover:bg-gray-700">
             Home
           </a>
         </li>
         <h1 className='mb-2 p-2'>CHARTS</h1>
         <hr></hr>
         <li className="mb-2">
-          <a href="/pie" className="flex items-center p-3 hover:bg-gray-700">
+          <a href="/corona-charts/pie" className="flex items-center p-3 hover:bg-gray-700">
             Pie
           </a>
         </li>
         <li className="mb-2">
-          <a href="/line" className="flex items-center p-3 hover:bg-gray-700">
+          <a href="/corona-charts/line" className="flex items-center p-3 hover:bg-gray-700">
             Line
           </a>
         </li>
         <li className="mb-2">
-          <a href="/bar" className="flex items-center p-3 hover:bg-gray-700">
+          <a href="/corona-charts/bar" className="flex items-center p-3 hover:bg-gray-700">
             Bar
           </a>
         </li>
         <li className="mb-2">
-          <a href="/area" className="flex items-center p-3 hover:bg-gray-700">
+          <a href="/corona-charts/area" className="flex items-center p-3 hover:bg-gray-700">
             Area
           </a>
         </li>
         <li className="mb-2">
-          <a href="/pyramid" className="flex items-center p-3 hover:bg-gray-700">
+          <a href="/corona-charts/pyramid" className="flex items-center p-3 hover:bg-gray-700">
             Pyramid
           </a>
         </li>
         <li className="mb-2">
-          <a href="/stacked" className="flex items-center p-3 hover:bg-gray-700">
+          <a href="/corona-charts/stacked" className="flex items-center p-3 hover:bg-gray-700">
             Stacked
           </a>
         </li>
         <li className="mb-2">
-          <a href="/color-mapping" className="flex items-center p-3 hover:bg-gray-700">
+          <a href="/corona-charts/color-mapping" className="flex items-center p-3 hover:bg-gray-700">
             Color Mapping
           </a>
         </li>
